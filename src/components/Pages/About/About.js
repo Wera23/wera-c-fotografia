@@ -1,10 +1,17 @@
 import React from "react";
+import image from "./images/image1.jpg";
+import "./About.css";
 
 const About = () => {
   return (
-    <>
-      <h1>Opis</h1>
-    </>
+    <div className="about">
+      <div className="aboutDesc">
+        <h2>Wera Chodanionek</h2>
+        <h3>Fotografia</h3>
+      </div>
+        <p></p>
+      <img className="aboutImage" src={image} alt=""/>    
+    </div>
   );
 };
 

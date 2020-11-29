@@ -4,10 +4,10 @@ import ImagesDogsSleeding from "./Images/ImagesDogsSleeding";
 import "./MainGalleryImages.css";
 
 const DogsSleedingGallery = () => {
-  const gutter = "20px";
+  const gutter = "30px";
 
   return (
-    <div className="partOfgallery">
+    <div className="gallery">
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 3 }}
         className="partOfgallery"

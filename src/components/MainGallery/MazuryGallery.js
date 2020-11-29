@@ -4,10 +4,20 @@ import ImagesMazury from "./Images/ImagesMazury";
 import "./MainGalleryImages.css";
 
 const MazuryGallery = () => {
-  const gutter = "20px";
+  const gutter = "30px";
 
   return (
     <div className="partOfgallery">
+       <ResponsiveMasonry
+        columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 2 }}
+        className="partOfgallery"
+      >
+        <Masonry gutter={gutter}>
+          <img src={ImagesMazury[0].src} alt="" />
+          <img src={ImagesMazury[1].src} alt="" />
+        </Masonry>
+      </ResponsiveMasonry>
+
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 3 }}
         className="partOfgallery"
@@ -19,16 +29,7 @@ const MazuryGallery = () => {
         </Masonry>
       </ResponsiveMasonry>
 
-      <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 2 }}
-        className="partOfgallery"
-      >
-        <Masonry gutter={gutter}>
-          <img src={ImagesMazury[0].src} alt="" />
-          <img src={ImagesMazury[1].src} alt="" />
-        </Masonry>
-      </ResponsiveMasonry>
-
+     
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 2 }}
         className="partOfgallery"

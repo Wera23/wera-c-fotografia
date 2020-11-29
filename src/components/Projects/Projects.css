@@ -1,0 +1,65 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.projectEl {
+  width: 50vw;
+  height: 40vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectEl:first-child {
+  background-color: rgba(240, 236, 231, 0.842);
+  /* align-items: end;
+  justify-content: end; */
+}
+
+.projectEl:nth-child(2) {
+  background-color: rgb(234, 238, 238);
+  /* align-items: start;
+  justify-content: end; */
+}
+
+.projectEl:nth-child(3) {
+  background-color: rgb(241, 241, 233);
+  /* align-items: end;
+  justify-content: start; */
+}
+
+.projectEl:nth-child(4) {
+  background-color: rgb(241, 236, 228);
+  /* align-items: start;
+  justify-content: start; */
+}
+
+.projectElImage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 30vw;
+}
+
+.projectElImageMountains {
+  background-image: url("../MainGallery/Images/mountains10.jpg");
+}
+
+.projectElImageTravels {
+  background-image: url("../MainGallery/Images/portugalia5.jpg");
+}
+
+.projectElImagePoland {
+  background-image: url("../MainGallery/Images/dif6.jpg");
+}
+
+.projectElImageCats {
+  background-image: url("../MainGallery/Images/dif8.jpg");
+}

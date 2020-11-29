@@ -1,12 +1,13 @@
 import React from "react";
 import Gallery from "../../MainGallery/MainGallery";
+import './Home.css';
 
 const Home = () => {
   return (
-    <>
-    <h1>Galeria</h1>
+   <div className="homepage">    
+
       <Gallery />
-    </>
+   </div>
   );
 };
 

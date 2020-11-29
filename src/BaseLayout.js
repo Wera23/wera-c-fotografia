@@ -1,13 +1,28 @@
 import React from "react";
-import Header from "./components/Header/Header";
+//import Header from "./components/Header/Header";
 
-const BaseLayout = ({children}) => {
+import "./BaseLayout.css";
+
+const BaseLayout = ({ children }) => {
   return (
-    <>
-      <Header />
+    <div className="page">
+        <ul className="menu">
+          <li>
+            <a className="menuLink" href="/">Strona główna</a>
+          </li>
+          <li>
+            <a className="menuLink" href="/projects">Tematy</a>
+          </li>
+          <li>
+            <a className="menuLink" href="/info">Informacja</a>
+          </li>
+        </ul>
+      <div className="pageTitle">Wera Chodanionek</div>
+      {/* <Header /> */}
       {children}
-      <div>Footer</div>
-    </>
+
+      <p className="footerText">Wera Chodanionek Fotografia | 2020</p>
+    </div>
   );
 };
 

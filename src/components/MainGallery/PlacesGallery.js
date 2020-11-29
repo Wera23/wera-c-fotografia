@@ -5,10 +5,10 @@ import "./MainGalleryImages.css";
 
 const PlacesGallery = () => {
     
-    const gutter = "20px";
+    const gutter = "30px";
 
     return (
-    <div className="partOfgallery">
+    <div className="gallery">
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 2 }} className="partOfgallery">
         <Masonry gutter={gutter}>
           <img src={ImagesPlaces[0].src} alt="" />

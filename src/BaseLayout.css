@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+  font-family: Ubuntu, sans-serif;
+  color: #575757;
+  font-size: 13px;
+  line-height: 1.8;
+  box-sizing: border-box !important;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; 
+  width: 100vw;
+}
+
+
+.pageTitle {
+  text-align: center;
+  font-size: 22px;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  font-family: 'Lora', serif;
+}
+
+.menu{
+  position: fixed;
+  top: 20px;
+  right: 100px;
+  z-index: 23;
+  background-blend-mode: difference;
+  display: flex;
+}
+
+.menuLink {
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.footerText {
+  color: #c6c6c6;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  width: 75%;
+}

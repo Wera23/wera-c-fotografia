@@ -28,6 +28,12 @@ import {
   Mountains27,
   Mountains28,
   Mountains29,
+  Mountains30,
+  Mountains31,
+  Mountains32,
+  Mountains33,
+  Mountains34,
+  Mountains35,
 } from "./index";
 
 const ImagesMountains = [
@@ -117,6 +123,24 @@ const ImagesMountains = [
   },
   {
     src: Mountains29,
+  },
+  {
+    src: Mountains30,
+  },
+  {
+    src: Mountains31,
+  },
+  {
+    src: Mountains32,
+  },
+  {
+    src: Mountains33,
+  },
+  {
+    src: Mountains34,
+  },
+  {
+    src: Mountains35,
   },
 ];
 

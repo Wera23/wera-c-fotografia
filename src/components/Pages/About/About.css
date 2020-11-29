@@ -1,0 +1,30 @@
+.about {
+  height: 95vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.aboutDesc {
+  box-sizing: border-box;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutDesc h2 {
+  font-size: 32px;
+}
+.aboutDesc h3 {
+  font-size: 24px;
+}
+
+.aboutImage {
+  width: 60vw;
+  box-sizing: border-box;
+}

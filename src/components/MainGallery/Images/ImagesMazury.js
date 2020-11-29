@@ -1,6 +1,9 @@
 
 import {
   Mazury1,
+  Mazury10,
+  Mazury11,
+  Mazury12,
   Mazury2,
   Mazury3,
   Mazury4,
@@ -38,6 +41,15 @@ const ImagesMazury = [
   },
   {
     src: Mazury9,
+  },
+  {
+    src: Mazury10,
+  },
+  {
+    src: Mazury11,
+  },
+  {
+    src: Mazury12,
   },
 ];
 
