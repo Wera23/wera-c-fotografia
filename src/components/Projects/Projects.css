@@ -16,28 +16,36 @@
   align-items: center;
 }
 
+.projectEl h3 {
+  font-family: "Lora", serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 4px;
+  padding-top: 5px;
+}
+
+.projectElLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
 .projectEl:first-child {
   background-color: rgba(240, 236, 231, 0.842);
-  /* align-items: end;
-  justify-content: end; */
 }
 
 .projectEl:nth-child(2) {
   background-color: rgb(234, 238, 238);
-  /* align-items: start;
-  justify-content: end; */
 }
 
 .projectEl:nth-child(3) {
   background-color: rgb(241, 241, 233);
-  /* align-items: end;
-  justify-content: start; */
 }
 
 .projectEl:nth-child(4) {
   background-color: rgb(241, 236, 228);
-  /* align-items: start;
-  justify-content: start; */
 }
 
 .projectElImage {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 //import Header from "./components/Header/Header";
 
 import "./BaseLayout.css";
@@ -6,17 +7,28 @@ import "./BaseLayout.css";
 const BaseLayout = ({ children }) => {
   return (
     <div className="page">
-        <ul className="menu">
-          <li>
-            <a className="menuLink" href="/">Strona główna</a>
-          </li>
-          <li>
-            <a className="menuLink" href="/projects">Tematy</a>
-          </li>
-          <li>
-            <a className="menuLink" href="/info">Informacja</a>
-          </li>
-        </ul>
+      <ul className="menu">
+        <li className="menuLi">
+          <i className="icon-pagelines menuIcon" />
+          <Link className="menuLink" to="/">
+            Strona główna
+          </Link>
+        </li>
+
+        <li className="menuLi">
+          <i className="icon-fog-sun menuIcon" />
+          <Link className="menuLink" to="/projects">
+            Tematy
+          </Link>
+        </li>
+
+        <li className="menuLi">
+          <i className="icon-paper-plane menuIcon" />
+          <Link className="menuLink" to="/about">
+            Informacja
+          </Link>
+        </li>
+      </ul>
       <div className="pageTitle">Wera Chodanionek</div>
       {/* <Header /> */}
       {children}

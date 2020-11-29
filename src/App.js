@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import "./fontello/css/fontello.css"
+
 import Home from "./components/Pages/Home/Home";
 import About from "./components/Pages/About/About";
 import Mountains from "./components/MainGallery/MountainsGallery";
